@@ -1,0 +1,123 @@
+body {
+    background-image: url('1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #fbfcfd;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
+}
+
+p {
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+}
+input {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    color: #738A90;
+}
+.one, .two {
+    margin: 0 50px;
+}
+
+.main {
+    background-color: rgba(192,192,192,0.7);
+    border: none;
+    border-radius: 20px;
+    width: 650px;
+    height: 600px;
+    margin: 50px 0;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.friends {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.showTotal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.grandTotal, .totalPerPerson {
+    background-color: rgba(107, 140, 131, 0.7);
+    margin: 0 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(14, 44, 30);
+    padding: 10px;
+}
+.cta {
+    display: flex;
+    justify-content: center;
+}
+#btn {
+    width: 300px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px;
+    background-color: #528c83;
+    border: none;
+    border-radius: 20px;
+    margin: 20px 0;
+    cursor: pointer;
+    color: white;
+}
+#btn:hover {
+    background-color: #91BFBC;
+}
+.par {
+    color: white;
+}
+#dividedAmount, #totalAmount {
+    color: white;
+    font-size: 20px;
+}
+
+@media all and (max-width: 540px) {
+    .main {
+        width: 340px;
+        height: 700px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 17px;
+    }
+    input {
+        font-size: 15px;
+    }
+    .grandTotal, .totalPerPerson {
+        padding: 5px;
+    }
+    .par {
+        font-size: 15px;
+    }
+}
+

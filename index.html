@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✂️Spending Splitter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <div class="wrapper"> 
+    <div class="main">
+        <div class="heading">
+            <h1>Trip Costs Splitter</h1>
+        </div>
+
+        <div class="friends">
+            <p>😎 Number of people</p>
+            <span>
+                <input type="text" placeholder="Number" id="people">
+            </span>
+        </div>
+        <div class="container">
+            <div class="one">
+                <p>🚙 Car rental</p>
+                <span>$
+                    <input type="text" placeholder="Car rental" id="car">
+                </span>
+                <p>⛽ Gas</p>
+                <span>$
+                    <input type="text" placeholder="Gas" id="gas">
+                </span>
+            </div>
+            <div class="two">
+                <p>🏨 Hotel</p>
+                <span>$
+                    <input type="text" placeholder="Hotel" id="hotel">
+                </span>
+                <p>🥘 Food</p>
+                <span>$
+                    <input type="text" placeholder="Food" id="food">
+                </span>
+            </div>
+        </div>
+
+        <div class="cta">
+            <button id="btn">Calculate</button>
+        </div>
+        <div class="showTotal">
+            <div class="grandTotal">
+                <p>Total Amount</p>
+                <span class="par">$</span>
+                <span id="totalAmount"></span>
+            </div>
+
+            <div class="totalPerPerson">
+                <div class="dividedTotal">
+                    <p>Total </p>
+                    <span class="par">$ </span>
+                    <span id="dividedAmount"></span>
+                    <span class="par">per person</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
