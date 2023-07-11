@@ -1,5 +1,5 @@
-# Rent split
+# 
 
-This app was built with Vanilla JS and CSS. It helps calculate what your rent should be!
+This app was built with Vanilla JS and CSS. It helps calculate your trip expenses.
 
-Check out how the app works: https://rentsplit-project-hanna.glitch.me
+Check out how the app works: https://trip-project-hanna.glitch.me
